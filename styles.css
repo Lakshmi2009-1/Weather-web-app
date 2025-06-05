@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  style: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #C613C4, #1329C6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+  
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+
+  width: 340px;
+  max-width: 400px;
+  color: white;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.col{
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+}
+
+ .col img{
+  width: 50px;
+}
+
+.col h1{
+  font-size: 20px;
+}
+
+.col h2{
+  font-size: 20px;
+}
+
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 180px;
+}
+
+.search button{
+  border: none;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 900px;
+}
+
+.search img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.search img:hover {
+  transform: scale(1.1);
+}
+
+.weather {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+ width: 90%;
+  text-align: center;
+  color: deepskyblue;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.weather-icon{
+  width: 120px;
+  margin: 15px;
+}
+
+.city {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 15px;
+  
+}
+
+.humidity{
+  color: deepskyblue;
+}
+
+.wind{
+  color: deepskyblue;
+}
+
+
+
+.error{
+  font-size: 25px;
+  color: red;
+  display: none;
+}
+
+.weather{
+  display: none;
+}
+
+.details{
+  display: none;
+}
+
+.welcome img{
+  width: 180px;
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  color: lawngreen;
+}
