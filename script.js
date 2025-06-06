@@ -33,7 +33,7 @@ async function checkWeather(city) {
   weatherIcon.src = './clear.png';
   }
   else if (data.weather[0].main == 'Clouds') {
-  weatherIcon.src = './rain.png';
+  weatherIcon.src = './cloud.png';
   }
   else if (data.weather[0].main == 'Rain') {
   weatherIcon.src = './rain.png';
