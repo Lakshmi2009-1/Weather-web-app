@@ -33,46 +33,46 @@ async function checkWeather(city) {
   weatherIcon.src = '/images /clear.png';
   }
   else if (data.weather[0].main == 'Clouds') {
-  weatherIcon.src = '/images /cloude.png';
+  weatherIcon.src = './rain.png';
   }
   else if (data.weather[0].main == 'Rain') {
-  weatherIcon.src = '/images /rain.png';
+  weatherIcon.src = './rain.png';
   }
   else if (data.weather[0].main == 'Drizzle') {
-  weatherIcon.src = '/images /drizzle.png';
+  weatherIcon.src = './drizzle.png';
   } 
   else if (data.weather[0].main == 'Mist') {
-  weatherIcon.src = '/images /mist.png';
+  weatherIcon.src = './mist.png';
   }
   else if (data.weather[0].main == 'Snow') {
-  weatherIcon.src = '/images /snow.png';
+  weatherIcon.src = './snow.png';
  }
  else if (data.weather[0].main == 'Ash') {
-  weatherIcon.src = '/images /ash.png';
+  weatherIcon.src = './ash.png';
  }
  else if (data.weather[0].main == 'Dust') {
-  weatherIcon.src = '/images /dust-sand.png';
+  weatherIcon.src = './dust-sand.png';
  }
  else if (data.weather[0].main == 'Sand') {
-  weatherIcon.src = '/images /dust-sand.png';
+  weatherIcon.src = './dust-sand.png';
  }
  else if (data.weather[0].main == 'Haze') {
-  weatherIcon.src = '/images /haze.png';
+  weatherIcon.src = './haze.png';
  }
  else if (data.weather[0].main == 'Smoke') {
-  weatherIcon.src = '/images /smoke.png';
+  weatherIcon.src = './smoke.png';
  }
  else if (data.weather[0].main == 'Squall') {
-  weatherIcon.src = '/images /squall.png';
+  weatherIcon.src = './squall.png';
  }
  else if (data.weather[0].main == 'Thunderstorm') {
-  weatherIcon.src = '/images /thunderstorm.png';
+  weatherIcon.src = './thunderstorm.png';
  }
  else if (data.weather[0].main == 'Tornado') {
-  weatherIcon.src = '/images /tornado.png';
+  weatherIcon.src = './tornado.png';
  }
  else if (data.weather[0].main == 'Fog') {
-  weatherIcon.src = '/images /fog.png';
+  weatherIcon.src = './fog.png';
  }
   
  document.querySelector('.error').style.display = 'none';
